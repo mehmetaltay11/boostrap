@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">BoostrapProject<span> AOLCC</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4">Creative Solutions</h1>
+                    <p class="lead">We provide creative solutions to make your brand stand out in the digital world.</p>
+                    <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Web Design</h3>
+                        <p>We represent your brand digitally with modern and user-friendly web designs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>We develop powerful and performant web applications using the latest technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Responsive</h3>
+                        <p>We create responsive designs that look perfect on all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img src="1.jpg" alt="Project 1" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>Project 1</h4>
+                            <p>Web Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img src="1.jpg" alt="Project 2" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>Project 2</h4>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-item">
+                        <img src="1.jpg" alt="Project 3" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>Project 3</h4>
+                            <p>Mobile App</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Team</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="team-member">
+                        <img src="2.jpg" alt="Team Member 1" class="rounded-circle">
+                        <h4>John Smith</h4>
+                        <p>Founder & CEO</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="team-member">
+                        <img src="2.jpg" alt="Team Member 2" class="rounded-circle">
+                        <h4>Sarah Johnson</h4>
+                        <p>Design Director</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="team-member">
+                        <img src="2.jpg" alt="Team Member 3" class="rounded-circle">
+                        <h4>Michael Brown</h4>
+                        <p>Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <p><i class="fas fa-envelope"></i>Mehmet.Altay@my-aolcc.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024  All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
